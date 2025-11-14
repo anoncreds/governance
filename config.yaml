@@ -1,4 +1,18 @@
 teams:
+  - name: anoncreds-contributors
+    maintainers:
+      - ryjones
+    members:
+      - andrewwhitehead
+      - berendsliedrecht
+      - bryce-mcmath
+      - dkulic
+      - genaris
+      - mikelodder7
+      - swcurran
+      - TelegramSam
+      - TimoGlastra
+      - WadeBarnes
   - name: lf-staff
     maintainers:
       - ryjones
@@ -7,6 +21,11 @@ teams:
       - thelinuxfoundation
 
 repositories:
+  - name: .github
+    teams:
+      anoncreds-contributors: maintain
+      lf-staff: maintain
+    visibility: public
   - name: governance
     teams:
       lf-staff: maintain
