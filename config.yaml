@@ -1,18 +1,50 @@
 teams:
-  - name: anoncreds-contributors
+  - name: anoncreds-admins
     maintainers:
-      - ryjones
+      - swcurran
     members:
       - andrewwhitehead
-      - berendsliedrecht
-      - bryce-mcmath
-      - dkulic
-      - genaris
       - mikelodder7
-      - swcurran
-      - TelegramSam
       - TimoGlastra
       - WadeBarnes
+  - name: anoncreds-contributors
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - dkulic
+      - bryce-mcmath
+  - name: anoncreds-maintainers
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - WadeBarnes
+      - andrewwhitehead
+      - berendsliedrecht
+      - dkulic
+      - genaris
+  - name: anoncreds-spec-editors
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+  - name: anoncreds-spec-v2-editors
+    maintainers:
+      - swcurran
+    members:
+      - TelegramSam
+      - mikelodder7
+  - name: anoncreds-v2-rs-maintainers
+    maintainers:
+      - mikelodder7
+      - swcurran
+    members:
+      - TimoGlastra
+      - WadeBarnes
+      - andrewwhitehead
+      - berendsliedrecht
+      - dkulic
   - name: lf-staff
     maintainers:
       - ryjones
@@ -29,4 +61,51 @@ repositories:
   - name: governance
     teams:
       lf-staff: maintain
+    visibility: public
+
+  - name: anoncreds
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+    visibility: public
+  - name: anoncreds-methods-registry
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+      anoncreds-maintainers: maintain
+    visibility: public
+  - name: anoncreds-revocation
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+      anoncreds-maintainers: maintain
+      anoncreds-spec-editors: maintain
+    visibility: public
+  - name: anoncreds-spec
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+      anoncreds-maintainers: maintain
+      anoncreds-spec-editors: maintain
+    visibility: public
+  - name: anoncreds-spec-v2
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+      anoncreds-spec-v2-editors: maintain
+    visibility: public
+  - name: anoncreds-tex
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+      anoncreds-maintainers: maintain
+      anoncreds-spec-editors: triage
+      anoncreds-spec-v2-editors: triage
+      anoncreds-v2-rs-maintainers: triage
+    visibility: public
+  - name: anoncreds-v2-rs
+    teams:
+      anoncreds-admins: admin
+      anoncreds-contributors: read
+      anoncreds-v2-rs-maintainers: maintain
     visibility: public
