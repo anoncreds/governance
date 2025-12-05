@@ -68,11 +68,23 @@ repositories:
       anoncreds-admins: admin
       anoncreds-contributors: read
     visibility: public
+  - name: anoncreds-clsignatures-rs
+    teams:
+      anoncreds-admins: admin
+      anoncreds-maintainers: maintain
+      anoncreds-contributors: read
+    visibility: public
   - name: anoncreds-methods-registry
     teams:
       anoncreds-admins: admin
       anoncreds-contributors: read
       anoncreds-maintainers: maintain
+    visibility: public
+  - name: anoncreds-rs
+    teams:
+      anoncreds-admins: admin
+      anoncreds-maintainers: maintain
+      anoncreds-contributors: read
     visibility: public
   - name: anoncreds-revocation
     teams:
@@ -108,4 +120,10 @@ repositories:
       anoncreds-admins: admin
       anoncreds-contributors: read
       anoncreds-v2-rs-maintainers: maintain
+    visibility: public
+  - name: anoncreds-wrappers-javascript
+    teams:
+      anoncreds-admins: admin
+      anoncreds-maintainers: maintain
+      anoncreds-contributors: read
     visibility: public
