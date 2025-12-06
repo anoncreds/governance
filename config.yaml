@@ -121,7 +121,7 @@ repositories:
       anoncreds-contributors: read
       anoncreds-v2-rs-maintainers: maintain
     visibility: public
-  - name: anoncreds-wrappers-javascript
+  - name: anoncreds-wrapper-javascript
     teams:
       anoncreds-admins: admin
       anoncreds-maintainers: maintain
