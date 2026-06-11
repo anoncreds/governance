@@ -11,14 +11,12 @@ teams:
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - dkulic
       - bryce-mcmath
   - name: anoncreds-maintainers
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - WadeBarnes
       - andrewwhitehead
       - berendsliedrecht
@@ -27,13 +25,11 @@ teams:
   - name: anoncreds-spec-editors
     maintainers:
       - swcurran
-    members:
-      - TelegramSam
+    members: []
   - name: anoncreds-spec-v2-editors
     maintainers:
       - swcurran
     members:
-      - TelegramSam
       - mikelodder7
   - name: anoncreds-v2-rs-maintainers
     maintainers:
